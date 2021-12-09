@@ -1,0 +1,22 @@
+		Grundlagen auf welchen Ausgearbeitet wurde:
+		
+		Navbar:
+		https://colorlib.com/wp/template/website-menu-03/
+		
+		button
+		https://getcssscan.com/css-buttons-examples 
+		Nr 34 
+
+		404
+		https://colorlib.com/wp/template/colorlib-error-404-6/
+
+		Grids 
+		https://getbootstrap.com/docs/4.0/layout/grid/
+
+		footer
+		https://bootstrapious.com/p/bootstrap-footer-bottom
+
+
+
+		
+		
