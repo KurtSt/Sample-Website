@@ -91,7 +91,7 @@
       
     </header>
     
-    <div class="hero" style="background-image: url('images/slider-04.jpg');"></div> 
+    <div class="hero" id="imgArea" style="background-image: url('images/slider-04.jpg');"></div> 
     <!--<div class="mx-auto" style="width: 200px;"  >
       <h1 style="margin-top: -360px;" >CREATIVE</h1>
       <h1 style="margin-top: 10px;"  >DESIGN</h1>
@@ -105,7 +105,7 @@
 
 
  
-  <a href="about.html"><button class="button-34" role="button">ABOUT US</button></a>
+  <button class="button-34" onclick="change()">ABOUT US</button>
 
   <div class="containerhero">
     <div class="row">
@@ -519,9 +519,35 @@ Successful businesses know the importance of building and maintaining good worki
           </div>
       </div>
   </footer>
+  
+  
+
 </div>
-
-
+  
+  <script>
+    let i = 0;
+    function change(){
+      
+      if(i == 0){
+        i = i +1;
+      document.getElementById("imgArea").style.backgroundImage = "url('images/slider-01.jpg')";
+      }
+      else if(i == 1){
+        i = i +1;
+        document.getElementById("imgArea").style.backgroundImage = "url('images/slider-02.jpg')";
+      }
+      else if(i == 2){
+        i = i +1;
+        document.getElementById("imgArea").style.backgroundImage = "url('images/slider-03.jpg')";
+      }
+      else if(i == 3){
+        i = 0;
+        document.getElementById("imgArea").style.backgroundImage = "url('images/slider-04.jpg')";
+      }
+    }
+    
+    
+  </script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
